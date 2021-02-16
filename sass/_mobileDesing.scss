@@ -1,0 +1,91 @@
+@import 'desktopDesing';
+
+
+@media screen and (max-width:1080px){
+    .chat_app_container{
+        .item_app1{
+            height: 90%;
+            .mid_ui{
+                .chat_right_img{
+                    margin-left: 40%;
+                }
+                .left2, .left3{
+                    width: 60%;
+                }
+                .left2{
+                    height: 50px;
+                }
+                .left3{
+                    height: 60px;
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width:875px){
+    body{
+        .desing{
+            top: -20%;
+            left: -20%;
+        }
+        .desing2{
+            right: -20%;
+            bottom: -90%;
+        }
+    }
+    .chat_app_container{
+        flex-direction: column;
+        .item_app1{
+            width: 290px;
+            height: 650px;
+            .top_ui{
+                .name{
+                    font-size: 14px;
+                }
+                .info{
+                    font-size: 12px;
+                }
+                .name, .info{
+                    margin-top: 30px;
+                }
+                .avatar_img{
+                    top:35% ;
+                }
+            }
+        }
+        .item_app2{
+            margin: auto;
+            width: 90vw;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width:420px){
+    body{
+        .desing{
+            left: -60%;
+        }
+    }
+    .chat_app_container{
+        .item_app1{
+            .top_ui{
+                .name{
+                    font-size: 14px;
+                }
+                .info{
+                    font-size: 12px;
+                }
+
+                .avatar_img{
+                    top:35% ;
+                }
+            }
+        }
+    }
+}
+
+
+
